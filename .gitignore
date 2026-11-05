@@ -1,0 +1,50 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# ── Secrets ───────────────────────────────────────────────────
+.env
+*.env
+
+# ── Streamlit ─────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Notebooks ─────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Data / exports ────────────────────────────────────────────
+*.csv
+*.xlsx
+*.json
+data/
+
+# ── OS artefacts ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Build & distribution ─────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+

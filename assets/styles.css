@@ -1,0 +1,213 @@
+/* ============================================================
+   Cybercrime Analytics & Visualization System (CIMS)
+   Global Dark Theme Stylesheet - Responsive & Fitted Layout
+   ============================================================ */
+
+/* ── Root colour palette ──────────────────────────────────── */
+:root {
+    --bg-primary:    #0a0e1a;
+    --bg-secondary:  #111827;
+    --bg-card:       #1a2235;
+    --bg-card-hover: #1e2a40;
+    --accent-cyan:   #00d4ff;
+    --accent-blue:   #3b82f6;
+    --accent-purple: #8b5cf6;
+    --accent-green:  #10b981;
+    --accent-red:    #ef4444;
+    --accent-yellow: #f59e0b;
+    --text-primary:  #e2e8f0;
+    --text-secondary:#94a3b8;
+    --text-muted:    #64748b;
+    --border:        #1e3a5f;
+    --border-glow:   rgba(0, 212, 255, 0.3);
+}
+
+/* ── Base Streamlit overrides ─────────────────────────────── */
+.stApp {
+    background-color: var(--bg-primary) !important;
+    color: var(--text-primary) !important;
+    overflow-x: hidden !important;
+}
+
+/* Main content area - Fluid responsive width to prevent clipping */
+.main .block-container {
+    padding-top: 1.25rem !important;
+    padding-bottom: 2.5rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 98% !important;
+    width: 100% !important;
+}
+
+/* ── Sidebar ──────────────────────────────────────────────── */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0d1b2e 0%, #111827 100%) !important;
+    border-right: 1px solid var(--border) !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown h1,
+[data-testid="stSidebar"] .stMarkdown h2,
+[data-testid="stSidebar"] .stMarkdown h3 {
+    color: var(--accent-cyan) !important;
+    margin-bottom: 0.35rem !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown p,
+[data-testid="stSidebar"] .stMarkdown li {
+    color: var(--text-secondary) !important;
+    font-size: 0.85rem;
+}
+
+/* Sidebar selectbox labels */
+[data-testid="stSidebar"] label {
+    color: var(--text-primary) !important;
+    font-size: 0.82rem !important;
+    font-weight: 600 !important;
+}
+
+/* ── Metric cards ─────────────────────────────────────────── */
+[data-testid="stMetric"] {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 10px !important;
+    padding: 0.85rem 1.1rem !important;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    min-height: 100px;
+}
+
+[data-testid="stMetric"]:hover {
+    border-color: var(--accent-cyan) !important;
+    transform: translateY(-1px);
+}
+
+[data-testid="stMetric"] label {
+    color: var(--text-secondary) !important;
+    font-size: 0.78rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--accent-cyan) !important;
+    font-size: 1.65rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    font-size: 0.78rem !important;
+}
+
+/* ── Plotly and Chart Containers (Prevent Overflow) ───────── */
+.stPlotlyChart {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    border-radius: 10px;
+}
+
+.stPlotlyChart > div {
+    width: 100% !important;
+}
+
+/* Matplotlib output centering & responsiveness */
+[data-testid="stImage"], [data-testid="stArrowVegaLiteChart"] {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* ── Headings & Spacing ───────────────────────────────────── */
+h1, h2, h3, h4 {
+    color: var(--text-primary) !important;
+}
+
+h1 { font-size: 2rem !important; font-weight: 800 !important; margin-bottom: 0.5rem !important; }
+h2 { font-size: 1.45rem !important; font-weight: 700 !important; margin-top: 1.25rem !important; margin-bottom: 0.75rem !important; }
+h3 { font-size: 1.15rem !important; font-weight: 600 !important; margin-top: 1rem !important; margin-bottom: 0.5rem !important; }
+h4 { font-size: 0.98rem !important; font-weight: 600 !important; }
+
+/* ── Dividers ─────────────────────────────────────────────── */
+hr {
+    border-color: var(--border) !important;
+    margin: 1.25rem 0 !important;
+}
+
+/* ── Dataframe / table ────────────────────────────────────── */
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--border) !important;
+    border-radius: 10px !important;
+    overflow-x: auto !important;
+    width: 100% !important;
+}
+
+/* ── Buttons ──────────────────────────────────────────────── */
+.stButton > button {
+    background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple)) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 0.45rem 1.25rem !important;
+    transition: opacity 0.2s ease, transform 0.15s ease !important;
+}
+
+.stButton > button:hover {
+    opacity: 0.9 !important;
+    transform: translateY(-1px);
+}
+
+/* Clear filter button distinctive accent */
+[data-testid="stSidebar"] .stButton > button {
+    background: rgba(239, 68, 68, 0.15) !important;
+    border: 1px solid var(--accent-red) !important;
+    color: #fca5a5 !important;
+    font-size: 0.82rem !important;
+    margin-top: 0.4rem !important;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: rgba(239, 68, 68, 0.3) !important;
+    color: #fff !important;
+}
+
+/* ── Selectbox / input / multi-select ─────────────────────── */
+.stSelectbox > div > div,
+.stMultiSelect > div > div,
+.stTextInput > div > div {
+    background: var(--bg-card) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+    color: var(--text-primary) !important;
+}
+
+/* ── Page header banner ───────────────────────────────────── */
+.page-header {
+    background: linear-gradient(135deg, #0d1b2e 0%, #1a2235 100%);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent-cyan);
+    border-radius: 10px;
+    padding: 1.1rem 1.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.page-header h1 { margin: 0 0 0.2rem 0 !important; }
+.page-header p  { color: var(--text-secondary); margin: 0 !important; font-size: 0.92rem; }
+
+/* ── Active filter banner ─────────────────────────────────── */
+.filter-active-pill {
+    background: rgba(0, 212, 255, 0.08);
+    border: 1px solid rgba(0, 212, 255, 0.25);
+    border-radius: 8px;
+    padding: 0.45rem 0.85rem;
+    color: var(--text-secondary);
+    font-size: 0.84rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.filter-active-pill strong {
+    color: var(--accent-cyan);
+}
