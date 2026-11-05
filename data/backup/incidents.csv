@@ -1,0 +1,14 @@
+incident_id,reported_date,incident_type,channel,city,state,financial_loss_inr,priority,status,assigned_user_id,case_id
+INC-2024-001,2024-01-15,Phishing,Email,Mumbai,Maharashtra,350000.0,High,Resolved,USR-101,CAS-2024-001
+INC-2024-002,2024-01-22,Ransomware,Network Intrusions,Bengaluru,Karnataka,1800000.0,Critical,Under Investigation,USR-102,CAS-2024-002
+INC-2024-003,2024-02-05,Identity Theft,Web Portal,Delhi,Delhi,120000.0,Medium,Resolved,USR-103,CAS-2024-003
+INC-2024-004,2024-02-18,Online Fraud,Payment Gateway,Hyderabad,Telangana,620000.0,High,Under Investigation,USR-101,CAS-2024-004
+INC-2024-005,2024-03-02,Financial Fraud,Mobile App,Pune,Maharashtra,850000.0,Critical,Reported,USR-104,CAS-2024-005
+INC-2024-006,2024-03-15,Data Breach,Cloud Storage,Chennai,Tamil Nadu,2400000.0,Critical,Resolved,USR-102,CAS-2024-006
+INC-2024-007,2024-04-02,Cyberstalking,Social Media,Kolkata,West Bengal,0.0,Low,Resolved,USR-103,CAS-2024-007
+INC-2024-008,2024-04-15,Hacking,VPN Gateway,Ahmedabad,Gujarat,450000.0,High,Under Investigation,USR-101,CAS-2024-008
+INC-2024-009,2024-05-05,DDoS Attack,Web Server,Jaipur,Rajasthan,280000.0,Medium,Resolved,USR-104,CAS-2024-009
+INC-2024-010,2024-05-20,Social Engineering,Phone/VoIP,Lucknow,Uttar Pradesh,950000.0,High,Reported,USR-102,CAS-2024-010
+INC-2024-011,2024-06-02,Financial Fraud,Email,Mumbai,Maharashtra,3100000.0,Critical,Under Investigation,USR-103,CAS-2024-011
+INC-2024-012,2024-06-18,Phishing,SMS (Smishing),Bengaluru,Karnataka,175000.0,Medium,Pending,USR-101,CAS-2024-012
+

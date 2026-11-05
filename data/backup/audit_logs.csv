@@ -1,0 +1,10 @@
+log_id,user_id,record_reference,action,timestamp
+LOG-501,USR-101,INC-2024-001,Created incident record from email report,2024-01-15 09:30:00
+LOG-502,USR-101,CAS-2024-001,Initiated case file and assigned priority High,2024-01-16 11:15:00
+LOG-503,USR-102,EVD-302,Uploaded ransomware binary sample for sandbox analysis,2024-01-24 14:45:00
+LOG-504,USR-103,CAS-2024-003,Closed investigation and submitted final report,2024-03-12 16:20:00
+LOG-505,USR-104,INC-2024-005,Logged priority escalation to Critical,2024-03-03 10:05:00
+LOG-506,USR-102,EVD-307,Verified AWS S3 bucket leak evidence,2024-03-18 13:40:00
+LOG-507,USR-101,CAS-2024-008,Updated investigation status to Under Investigation,2024-04-18 17:10:00
+LOG-508,USR-103,INC-2024-011,Added bank transaction traces to case dossier,2024-06-05 15:30:00
+

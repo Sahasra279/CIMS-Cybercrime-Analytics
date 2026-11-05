@@ -1,0 +1,13 @@
+case_id,incident_id,case_title,case_status,assigned_user_id,created_date,closed_date
+CAS-2024-001,INC-2024-001,State Bank Credential Harvesting Scheme,Closed,USR-101,2024-01-16,2024-02-28
+CAS-2024-002,INC-2024-002,Apex Hospital LockBit Ransomware Attack,Under Investigation,USR-102,2024-01-23,
+CAS-2024-003,INC-2024-003,Aadhaar Card KYC Duplication Fraud,Closed,USR-103,2024-02-06,2024-03-12
+CAS-2024-004,INC-2024-004,Metro E-Commerce Credit Card Exfiltration,Under Investigation,USR-101,2024-02-19,
+CAS-2024-005,INC-2024-005,FinTech UPI Wire Impersonation Ring,Open,USR-104,2024-03-03,
+CAS-2024-006,INC-2024-006,Enterprise Customer Database Leakage,Closed,USR-102,2024-03-16,2024-04-20
+CAS-2024-007,INC-2024-007,Executive Social Media Defamation Campaign,Closed,USR-103,2024-04-03,2024-04-25
+CAS-2024-008,INC-2024-008,Smart Grid Infrastructure Reconnaissance,Under Investigation,USR-101,2024-04-16,
+CAS-2024-009,INC-2024-009,Payment Gateway SYN Flood Extortion,Closed,USR-104,2024-05-06,2024-05-22
+CAS-2024-010,INC-2024-010,Crypto Investment Multi-Level Scheme,Open,USR-102,2024-05-21,
+CAS-2024-011,INC-2024-011,Chief Financial Officer Email Compromise,Under Investigation,USR-103,2024-06-03,
+CAS-2024-012,INC-2024-012,IT Vendor Supply Chain Malware Injection,Open,USR-101,2024-06-19,

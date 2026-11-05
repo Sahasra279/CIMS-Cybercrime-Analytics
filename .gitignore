@@ -24,10 +24,8 @@ ENV/
 .ipynb_checkpoints/
 
 # ── Data / exports ────────────────────────────────────────────
-*.csv
 *.xlsx
 *.json
-data/
 
 # ── OS artefacts ──────────────────────────────────────────────
 .DS_Store

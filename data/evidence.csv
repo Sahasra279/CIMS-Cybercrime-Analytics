@@ -1,0 +1,11 @@
+evidence_id,case_id,evidence_description,evidence_type,collected_date,collected_by_user_id,verification_status
+EVD-301,CAS-2024-001,Spoofed SMTP headers and fraudulent domain registration logs,Digital Log,2024-01-17,USR-101,Verified
+EVD-302,CAS-2024-002,Encrypted sample payload & ransom note .txt file,Malware Binary,2024-01-24,USR-102,Verified
+EVD-303,CAS-2024-002,Firewall packet capture during lateral spread,PCAP File,2024-01-25,USR-102,Pending Review
+EVD-304,CAS-2024-003,Forged identity document copies and IP access records,Digital Document,2024-02-07,USR-103,Verified
+EVD-305,CAS-2024-004,Magecart malicious JavaScript injection script,Script Code,2024-02-20,USR-101,Verified
+EVD-306,CAS-2024-005,Fraudulent UPI VPA handle metadata and SMS transcripts,Transaction Record,2024-03-04,USR-104,Pending Review
+EVD-307,CAS-2024-006,Misconfigured AWS S3 access control audit trail,Audit Log,2024-03-17,USR-102,Verified
+EVD-308,CAS-2024-008,Brute-force SSH attack telemetry and compromised credentials,System Log,2024-04-17,USR-101,Pending Review
+EVD-309,CAS-2024-010,VoIP call routing logs and mule bank account details,Financial Record,2024-05-22,USR-102,Rejected
+EVD-310,CAS-2024-011,Targeted spear-phishing executive email chain and headers,Email Record,2024-06-04,USR-103,Verified
